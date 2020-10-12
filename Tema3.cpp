@@ -32,7 +32,7 @@ class Delfin: public Animal
 {
     public:
 
-void Mensaje_Delfin()
+    void Mensaje_Delfin()
     {
     cout<< "El nombre del delfin "<< Nombre << " y tiene "<< Edad << " " << "Años de edad. El Delfin viene de Ocean World en Puerto Plata. \n";  
     }
@@ -46,8 +46,8 @@ int main ()
     char N1[10]="Raya";
     char N2[10]="Azul";
 
-    zebr.Informacion (5, N1);
-    delf.Informacion (2, N2);
+    zebr.Informacion (9, N1);
+    delf.Informacion (5, N2);
 
     zebr.Mensaje_Zebra();
     delf.Mensaje_Delfin();
