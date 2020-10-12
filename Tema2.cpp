@@ -19,7 +19,7 @@ public:
 
 int main ()
 {
-    Hija Katherine;
+    Hija Katherine; //Si se quisiera se pudiera ingresar a la madre para desplegar por pantalla con el mismo orden usado anteriormente 
     Katherine.Mostrar();
     return 0;
 }
